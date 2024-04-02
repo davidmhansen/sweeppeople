@@ -1,0 +1,29 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: calc(100vw / 1440 * 10);
+
+    @media (max-width: 768px) {
+        font-size: calc(100vw / 375 * 10);
+    }
+}
+
+body {
+    font-family: $font-neue-montreal;
+    color: $color-cod-gray;
+    padding: 0 2.4rem 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: all .2s ease-in-out;
+
+    &:hover {
+        color: $color-cod-gray;
+    }
+}

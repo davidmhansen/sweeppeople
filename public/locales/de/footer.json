@@ -1,0 +1,17 @@
+{
+  "title": "Sind Sie an einer Zusammenarbeit interessiert, um Ihr Projekt auf die nächste Stufe zu heben?",
+  "claim": "Let's get to work!",
+  "nav": {
+    "sitemap": {
+      "home": "Startseite",
+      "service": "Leistungen",
+      "about": "Über Uns",
+      "contact": "Kontakt"
+    },
+    "legal": {
+      "title": "Rechtliches",
+      "privacy": "Datenschutzerklärung",
+      "notice": "Impressum"
+    }
+  }
+}

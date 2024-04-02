@@ -1,0 +1,33 @@
+@use '../../../../styles/typography/base.scss';
+
+@import '../../../../styles/utils/variables.scss';
+
+.body{
+    display: flex;
+    flex-direction: column;
+}
+
+.body a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:first-of-type p {
+        padding-top: 1.2rem;
+    }
+}
+
+.body p {
+    @include base.title-148;
+    margin: 0px;
+    display: flex;
+    overflow: hidden;
+}
+
+.empty {
+    margin-right: 3.5rem;
+
+    @media (max-width: 768px) {
+        margin-right: 1rem;
+    }
+}

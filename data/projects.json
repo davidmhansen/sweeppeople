@@ -1,0 +1,37 @@
+{
+  "projects": [
+    {
+      "project": "BACK 2 THE WOODS FESTIVAL",
+      "services": ["STAGE DESIGN", "EVENT MANAGEMENT"],
+      "client": "KELLERKIND MUC",
+      "year": 2023,
+      "img": "our-works-cta.jpg"
+    },
+    {
+      "project": "BACK 2 THE WOODS FESTIVAL",
+      "services": [
+        "STAGE DESIGN",
+        "EVENT MANAGEMENT",
+        "EVENT MANAGEMENT",
+        "STAGE DESIGN"
+      ],
+      "client": "KELLERKIND MUC",
+      "year": 2024,
+      "img": "compressed-header-green.jpg"
+    },
+    {
+      "project": "BACK 2 THE WOODS FESTIVAL",
+      "services": ["STAGE DESIGN", "EVENT MANAGEMENT"],
+      "client": "KELLERKIND MUC",
+      "year": 2023,
+      "img": "homepage-header.jpg"
+    },
+    {
+      "project": "SCHALL IM SCHILF",
+      "services": ["STAGE DESIGN", "EVENT MANAGEMENT", "CUSTOM DESIGN"],
+      "client": "PRIVAT",
+      "year": 2022,
+      "img": "homepage-hollistic-approach.jpg"
+    }
+  ]
+}

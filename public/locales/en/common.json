@@ -1,0 +1,11 @@
+{
+  "navigation": {
+    "about": "ABOUT",
+    "service": "SERVICE",
+    "projects": "PROJECTS",
+    "contact": "CONTACT"
+  },
+  "cta": {
+    "subtitle": "coming soon"
+  }
+}

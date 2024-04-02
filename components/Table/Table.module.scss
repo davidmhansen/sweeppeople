@@ -1,0 +1,59 @@
+@use '../../styles/typography/base.scss';
+
+@import '../../styles/utils/variables.scss';
+
+.table {
+    @include base.paragraph-16;
+    margin-bottom: 24rem;
+
+    @media (max-width: 768px) {
+        @include base.paragraph-14;
+    }
+}
+
+.container {
+    .projects {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.project {
+    width: 100%;
+    padding: 3.2rem 1rem;
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid $color-iron;
+    color: $color-light-gray;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+
+    &:hover {
+        color: $color-cod-gray;
+    }
+
+    &:first-child {
+        color: $color-cod-gray;
+        cursor: inherit;
+    }
+
+    &:last-child {
+        border-bottom: none;
+    }
+
+    div {
+        flex: 3;
+
+        &:last-child {
+            flex: 1;
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+}
+
+// .service {
+//     display: flex;
+//     flex-direction: column;
+//     gap: 1rem;
+// }

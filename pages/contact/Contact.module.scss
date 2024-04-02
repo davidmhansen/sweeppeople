@@ -1,0 +1,15 @@
+@use '../../styles/typography/base.scss';
+
+.contact__paragraph {
+    @include base.title-64;
+    margin-bottom: 6.4rem
+}
+
+.contact__actions {
+    padding-left: 6.4rem;
+    margin-bottom: 12.8rem;
+    span {
+        @include base.title-64;
+        display: block;
+    }
+}

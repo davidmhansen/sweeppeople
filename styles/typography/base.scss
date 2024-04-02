@@ -1,0 +1,86 @@
+@import '../utils/variables.scss';
+
+// titles
+
+@mixin title-148 {
+    font-family: $font-neue-montreal;
+    font-size: 14.8rem;
+    letter-spacing: -.25rem;
+    line-height: 13.2rem;
+    text-transform: uppercase;
+    margin-bottom: 3.2rem;
+    font-weight: 500;
+
+    @media (max-width: 768px) {
+        font-size: 4.4rem;
+        line-height: 4.32rem;
+        letter-spacing: -.125rem;
+        margin-bottom: 1.6rem;
+    }
+}
+
+@mixin title-64 {
+    font-family: $font-neue-montreal;
+    font-size: 6.4rem;
+    line-height: 115%;
+
+    @media (max-width: 768px) {
+        font-size: 3.2rem;
+        line-height: 115%;
+        letter-spacing: -.0125rem;
+    }
+}
+
+@mixin title-40 {
+    font-family: $font-neue-montreal;
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: 500;
+}
+
+@mixin title-32 {
+    font-family: $font-neue-montreal;
+    font-size: 3.2rem;
+    line-height: 3.68rem;
+    font-weight: 500;
+
+    @media (max-width: 768px) {
+        font-size: 2.4rem;
+        line-height: 115%;
+        letter-spacing: -.0125rem;
+        margin-bottom: 1.6rem;
+    }
+}
+
+@mixin title-20 {
+    font-family: $font-neue-montreal;
+    font-size: 2rem;
+    line-height: 125%;
+    font-weight: 500;
+}
+
+// subtitles
+
+@mixin subtitle-18 {
+    font-family: $font-neue-montreal;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    line-height: 2.16rem;
+    font-weight: 500;
+}
+
+// paragraphs
+
+@mixin paragraph-16 {
+    font-family: $font-neue-montreal;
+    font-size: 1.6rem;
+    line-height: 125%;
+    font-weight: 500;
+}
+
+@mixin paragraph-14 {
+    font-family: $font-neue-montreal;
+    font-size: 1.4rem;
+    line-height: 125%;
+    font-weight: 500;
+}

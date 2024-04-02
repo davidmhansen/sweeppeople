@@ -1,0 +1,17 @@
+{
+  "title": "Are you interested in working together and elevate your project to the next level?",
+  "claim": "Let's get to work!",
+  "nav": {
+    "sitemap": {
+      "home": "Home",
+      "service": "Service",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Privacy Policy",
+      "notice": "Legal Notice"
+    }
+  }
+}

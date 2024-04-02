@@ -1,0 +1,186 @@
+@use '../styles/typography/base.scss';
+@use '../styles/base/grid.scss';
+
+@import '../styles/utils/variables.scss';
+
+.section__1 {
+    @include grid.sitegrid;
+
+
+    .section__wrapper {
+
+        grid-column: 2 / span 6;
+
+        @media (max-width: 768px) {
+            grid-column: 1 / span 12;
+            margin-bottom: 6.4rem;
+        }
+
+        .section {
+
+            margin-bottom: 6.4rem;
+
+            .section__title {
+                @include base.title-32;
+                margin-bottom: 3.2rem
+            }
+
+            .section__copy {
+                @include base.paragraph-16;
+                line-height: 2.5rem;
+                color: $color-light-gray;
+            }
+
+        }
+
+        .section__content {
+            display: grid;
+            grid-column-gap: 2.4rem;
+            grid-template-columns: repeat(9, minmax(0, 1fr));
+
+            .section__content_title {
+                grid-column: span 3 / span 3;
+                @include base.paragraph-16;
+
+                @media (max-width: 768px){
+                    grid-column: 1 / span 9;
+                    margin-bottom: 2.4rem;
+                }            
+            }
+
+            .section__content_copy {
+                grid-column: span 6 / span 6;
+                @include base.paragraph-16;
+                line-height: 2.5rem;
+                color: $color-light-gray;
+
+                @media (max-width: 768px){
+                    grid-column: 1 / span 9;
+                }   
+            }
+        }
+    }
+
+    .section__image_wrapper {
+        grid-column: 9 / span 6;
+
+        @media (max-width: 768px) {
+            grid-row: 2;
+            grid-column: 1 / span 12;
+        }
+    }
+}
+
+.section__2 {
+    @include grid.sitegrid;
+
+
+    .section__wrapper {
+
+        grid-column: 4 / span 8;
+
+        @media (max-width: 768px) {
+            grid-column: 1 / span 12;
+        }
+
+        .section {
+
+            margin-bottom: 6.4rem;
+
+            .section__title {
+                @include base.title-32;
+                margin-bottom: 3.2rem;
+                max-width: 50rem;
+            }
+
+            .section__copy {
+                @include base.paragraph-16;
+                line-height: 2.5rem;
+                color: $color-light-gray;
+            }
+
+        }
+
+        .section__content {
+            display: grid;
+            grid-column-gap: 2.4rem;
+            grid-template-columns: repeat(9, minmax(0, 1fr));
+
+            .section__content_title {
+                grid-column: span 3 / span 3;
+                @include base.paragraph-16;
+
+                @media (max-width: 768px) {
+                    grid-column: 1 / span 9;
+                    margin-bottom: 3.2rem;
+                }
+            }
+
+            .section__copy_wrapper {
+
+                grid-column: 4 / span 8;
+                display: flex;
+                flex-direction: column;
+
+                @media (max-width: 768px) {
+                    grid-column: 1 / span 9;
+                }
+
+                p {
+                    @include base.paragraph-16;
+                    line-height: 2.5rem;
+
+                    &:not(:last-child) {
+                        margin-bottom: 3.2rem;
+                    }
+
+                    &:not(:first-child) {
+                        color: $color-light-gray;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.sitegrid {
+    @include grid.sitegrid;
+
+    .section__image_wrapper {
+        grid-column: 1 / span 9;
+
+        @media (max-width: 768px) {
+            grid-column: 1 / span 12;
+        }
+    }
+}
+
+.section__3 {
+    @include grid.sitegrid;
+
+    .section__wrapper {
+        grid-column: 3 / span 7;
+
+        @media (max-width: 768px) {
+            grid-column: 1 / span 12;
+        }
+    }
+
+    .section__title {
+        @include base.title-32;
+        margin-bottom: 3.2rem;
+        max-width: 65rem;
+    }
+
+    .section__content {
+        @include base.paragraph-16;
+        line-height: 2.5rem;
+        color: $color-light-gray;
+
+        .section__copy_wrapper {
+            p:not(:last-child) {
+                margin-bottom: 3.2rem;
+            }
+        }
+    }
+}

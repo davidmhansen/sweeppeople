@@ -1,0 +1,27 @@
+@use '../../styles/typography/base.scss';
+
+@import '../../styles/utils/variables.scss';
+
+.body {
+    margin-bottom: 24rem;
+}
+
+.project {
+    @include base.paragraph-16;
+    width: 100%;
+    padding: 3.2rem 1rem;
+    display: flex;
+    align-items: flex-start;
+    color: $color-cod-gray;
+
+    div {
+        flex: 3;
+
+        &:last-child {
+            flex: 1;
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+}
+

@@ -1,0 +1,11 @@
+@use '../../styles/typography/base.scss';
+
+.about__paragraph {
+    @include base.title-64;
+    margin-bottom: 6.4rem;
+    max-width: 115.4rem;
+}
+
+.section__image_wrapper {
+    margin-bottom: 12.8rem;
+}

@@ -1,0 +1,61 @@
+@import '../../../styles/utils/variables.scss';
+
+.modalContainer{
+    height: 350px;
+    width: 400px;
+    position: absolute;
+    background-color: $color-iron;
+    overflow: hidden;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
+}
+
+.modalSlider{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: top 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.modal{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal img{
+    height: auto;
+    width: auto;
+}
+
+.cursor, .cursorLabel{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: $color-cod-gray;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 300;
+    pointer-events: none;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
+}
+
+.cursorLabel{
+    background-color: transparent;
+}

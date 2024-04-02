@@ -1,0 +1,30 @@
+@use '../../styles/typography/base.scss';
+
+@import '../../styles/utils/variables.scss';
+
+.content__wrapper {
+    
+    max-width: 92.5rem;
+    .subtitle {
+        @include base.title-32;
+        max-width: 92.5rem;
+        margin-bottom: 3.2rem
+    }
+    
+    .copy {
+        @include base.paragraph-16;
+        color: $color-light-gray;
+        margin-bottom: 8.8rem;
+    }
+}
+
+.sitegrid {
+    display: grid;
+    grid-column-gap: 2.4rem;
+    grid-template-columns: repeat(12,minmax(0,1fr));
+    margin-bottom: 24rem;
+
+    @media (max-width: 768px) {
+        margin-bottom: 12.8rem;
+    }
+}

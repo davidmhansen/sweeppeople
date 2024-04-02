@@ -1,0 +1,44 @@
+@use '../../styles/typography/base.scss';
+
+@import '../../styles/utils/variables.scss';
+
+.hero {
+
+    padding: 3.2rem 0 0 0;
+
+    margin-bottom: 12rem;
+
+    @media (max-width: 768px) {
+        margin-bottom: 6.4rem;
+    }
+
+    .hero__heading {
+        @include base.title-148;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 3rem;
+
+        @media (max-width: 768px) {
+            column-gap: 1.25rem;
+        }
+    }
+}
+
+.subtitle__wrapper {
+    
+    max-width: 80rem;
+    margin-bottom: 8.8rem;
+
+    @media (max-width: 768px) {
+        margin-bottom: 4.4rem;
+    }
+
+    .hero__subtitle {
+        @include base.subtitle-18;
+        color: $color-light-gray;
+
+        @media (max-width: 768px) {
+            @include base.paragraph-16;
+        }
+    }
+}

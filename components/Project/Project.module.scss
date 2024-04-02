@@ -1,0 +1,35 @@
+@use '../../styles/typography/base.scss';
+
+@import '../../styles/utils/variables.scss';
+
+.project {
+    @include base.paragraph-16;
+    width: 100%;
+    padding: 3.2rem 1rem;
+    display: flex;
+    align-items: flex-start;
+    border-top: 1px solid $color-iron;
+    color: $color-light-gray;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+
+    &:hover {
+        color: $color-cod-gray;
+    }
+
+    &:first-child {
+        border-top: none;
+        color: $color-cod-gray;
+        cursor: inherit;
+    }
+
+    div {
+        flex: 3;
+
+        &:last-child {
+            flex: 1;
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+}

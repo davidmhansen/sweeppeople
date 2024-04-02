@@ -1,0 +1,108 @@
+@use '../../../styles/typography/base.scss';
+
+@import '../../../styles/utils/variables.scss';
+
+.item {
+    display: flex;
+    flex-direction: column;
+    grid-column-start: 6;
+    grid-column: 1 / span 12;
+    border-bottom: 1px solid $color-iron;
+    padding-bottom: 3.2rem;
+    margin-bottom: 3.2rem;
+
+    @media (max-width: 768px) {
+        grid-column: 1 / span 12;
+    }
+
+    &:last-child {
+        border-bottom: none;
+    }
+
+    .item__question {
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        .item__title {
+            @include base.title-32;
+            margin-bottom: 0 !important;
+            
+            @media (max-width: 768px) {
+                max-width: 80%;
+            }
+        }
+
+        .item__icon {
+            @include base.title-32;
+            margin-bottom: 0 !important;
+        }
+    }
+
+    .item__answer {
+        padding: 3.2rem 0 0 0;
+        @include base.paragraph-16;
+        color: $color-light-gray;
+        display: none;
+        opacity: 0;
+        transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+        .copy__wrapper {
+            max-width: 91.9rem;
+            margin-bottom: 6.4rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.6rem;
+        }
+
+        .item__wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2.4rem;
+            margin-bottom: 2.4rem;
+
+
+            .item__container {
+                padding: 2rem 2rem 2.4rem 2rem;
+                background-color: #F2F2F2;
+                width: calc(33.33% - 1.6rem);
+                height: fit-content;
+
+                @media (max-width: 768px) {
+                    width: 100%;
+                }
+
+                h3 {
+                    margin-bottom: 3.2rem;
+                    color: $color-cod-gray;
+                }
+
+                ul {
+                    margin-top: 2.4rem;
+                }
+            }
+        }
+
+
+        &_active {
+            display: flex;
+            flex-direction: column;
+            opacity: 1;
+
+            ul {
+                list-style-type: disc;
+                line-height: 150%;
+                list-style-position: inside
+            }
+
+            .item__answer_footer {
+                @include base.title-20;
+                color: $color-cod-gray;
+
+                .item__answer_cta {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,46 @@
+@use '../../styles/typography/base.scss';
+
+@import '../../styles/utils/variables.scss';
+
+.cta {
+    margin-bottom: 12.8rem;
+    position: relative;
+    overflow: hidden;
+
+    // img {
+    //     scale: 1;
+    //     transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+    //     &:hover {
+    //         scale: 1.01;
+    //     }
+    // }
+
+    .cta__wrapper {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cta__title {
+        cursor: default;
+        text-align: center;
+        @include base.title-148;
+        color: $color-white;
+    }
+
+    .cta__info {
+        cursor: default;
+        text-align: center;
+        @include base.title-32;
+        color: $color-white;
+
+        @media (max-width: 768px) {
+            @include base.paragraph-16;
+        }
+    }
+}
