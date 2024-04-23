@@ -30,7 +30,9 @@ export default function Header() {
             }}
             className={styles.navigation__logo}
           >
-            <Link href="/">sweeppeople</Link>
+            <Link href="/">
+              <span className={styles.logo__gray}>sweep</span>people
+            </Link>
           </span>
           <div
             onClick={() => {

@@ -85,7 +85,9 @@ export default function Footer() {
           </div>
         </div>
         <div className={styles.footer__company_wrapper}>
-          <span className={styles.footer__company_logo}>Sweeppeople</span>
+          <span className={styles.footer__company_logo}>
+            <span className={styles.logo__gray}>Sweep</span>people
+          </span>
           <p className={styles.footer__company_copyright}>
             Copyright @ sweeppeople // {currentDate.toString()}
           </p>

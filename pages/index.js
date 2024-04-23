@@ -33,7 +33,7 @@ export default function Home() {
         <Hero
           title="HUMAN STORIES. SUPERHUMAN BRANDS."
           subtitle={t("subtitle")}
-          imageURL="compressed-header-green.jpg"
+          imageURL="1.jpg"
         ></Hero>
         <div ref={ref}>
           <section className={styles.section__1}>
@@ -62,7 +62,7 @@ export default function Home() {
             </div>
             <div className={styles.section__image_wrapper}>
               <Image
-                src="/images/stage.jpg"
+                src="/images/8.jpg"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -105,7 +105,7 @@ export default function Home() {
           <section className={styles.sitegrid}>
             <div className={styles.section__image_wrapper}>
               <Image
-                src="/images/compressed.jpg"
+                src="/images/6.jpg"
                 width={0}
                 height={0}
                 sizes="100vw"

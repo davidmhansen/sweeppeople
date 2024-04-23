@@ -57,7 +57,7 @@ export default function Body({ links, selectedLink, setSelectedLink }) {
   return (
     <div className={styles.body}>
       {links.map((link, index) => {
-        const { title, href } = link;
+        const { title, href, sup } = link;
         return (
           <Link key={`l_${index}`} href={href}>
             <motion.p
@@ -79,6 +79,7 @@ export default function Body({ links, selectedLink, setSelectedLink }) {
               className={styles.p}
             >
               {getChars(title)}
+              {/* <span>{sup}</span> */}
             </motion.p>
           </Link>
         );

@@ -96,6 +96,10 @@
             @include base.title-148;
             font-weight: 700;
 
+            .logo__gray {
+                color: $color-light-gray;
+            }
+
             @media (max-width: 768px) {
                 font-size: 3.2rem;
                 margin-bottom: 0

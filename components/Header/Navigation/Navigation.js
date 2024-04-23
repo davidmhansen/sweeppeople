@@ -11,22 +11,23 @@ const links = [
   {
     title: "About",
     href: "/about",
-    src: "stage.jpg",
+    src: "7.jpg",
   },
   {
     title: "Service",
     href: "/service",
-    src: "our-works-cta.jpg",
+    src: "2.jpg",
   },
-  {
-    title: "Projects",
-    href: "/projects",
-    src: "homepage-header.jpg",
-  },
+  // {
+  //   title: "Projects",
+  //   sup: "soon",
+  //   href: "#",
+  //   src: "3.jpg",
+  // },
   {
     title: "Contact",
     href: "/contact",
-    src: "homepage-hollistic-approach.jpg",
+    src: "4.jpg",
   },
 ];
 

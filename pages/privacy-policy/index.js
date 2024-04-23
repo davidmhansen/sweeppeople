@@ -12,7 +12,7 @@ export default function PrivacyPolicy() {
       <div className={styles.wrapper}>
         <div className={styles.block}>
           <h2 className={styles.h2}>1. Datenschutz auf einen Blick</h2>
-          <h3>Allgemeine Hinweise</h3>
+          <h3 className={styles.h3}>Allgemeine Hinweise</h3>
           <p className={styles.p}>
             Die folgenden Hinweise geben einen einfachen Überblick darüber, was
             mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website
@@ -21,7 +21,7 @@ export default function PrivacyPolicy() {
             zum Thema Datenschutz entnehmen Sie unserer unter diesem Text
             aufgeführten Datenschutzerklärung.
           </p>
-          <h3>Datenerfassung auf dieser Website</h3>
+          <h3 className={styles.h3}>Datenerfassung auf dieser Website</h3>
           <h4>
             Wer ist verantwortlich für die Datenerfassung auf dieser Website?
           </h4>
@@ -68,7 +68,7 @@ export default function PrivacyPolicy() {
           <p className={styles.p}>
             Wir hosten die Inhalte unserer Website bei folgendem Anbieter:
           </p>
-          <h3>Externes Hosting</h3>
+          <h3 className={styles.h3}>Externes Hosting</h3>
           <p className={styles.p}>
             Diese Website wird extern gehostet. Die personenbezogenen Daten, die
             auf dieser Website erfasst werden, werden auf den Servern des
@@ -114,7 +114,7 @@ export default function PrivacyPolicy() {
           <h2 className={styles.h2}>
             3. Allgemeine Hinweise und Pflichtinformationen
           </h2>
-          <h3>Datenschutz</h3>
+          <h3 className={styles.h3}>Datenschutz</h3>
           <p className={styles.p}>
             Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen
             Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten
@@ -135,7 +135,7 @@ export default function PrivacyPolicy() {
             Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist
             nicht möglich.
           </p>
-          <h3>Hinweis zur verantwortlichen Stelle</h3>
+          <h3 className={styles.h3}>Hinweis zur verantwortlichen Stelle</h3>
           <p className={styles.p}>
             Die verantwortliche Stelle für die Datenverarbeitung auf dieser
             Website ist:
@@ -154,7 +154,7 @@ export default function PrivacyPolicy() {
             Verarbeitung von personenbezogenen Daten (z. B. Namen,
             E-Mail-Adressen o. Ä.) entscheidet.
           </p>
-          <h3>Speicherdauer</h3>
+          <h3 className={styles.h3}>Speicherdauer</h3>
           <p className={styles.p}>
             Soweit innerhalb dieser Datenschutzerklärung keine speziellere
             Speicherdauer genannt wurde, verbleiben Ihre personenbezogenen Daten
@@ -166,7 +166,7 @@ export default function PrivacyPolicy() {
             handelsrechtliche Aufbewahrungsfristen); im letztgenannten Fall
             erfolgt die Löschung nach Fortfall dieser Gründe.
           </p>
-          <h3>
+          <h3 className={styles.h3}>
             Allgemeine Hinweise zu den Rechtsgrundlagen der Datenverarbeitung
             auf dieser Website
           </h3>
@@ -193,7 +193,7 @@ export default function PrivacyPolicy() {
             Rechtsgrundlagen wird in den folgenden Absätzen dieser
             Datenschutzerklärung informiert.
           </p>
-          <h3>Empfänger von personenbezogenen Daten</h3>
+          <h3 className={styles.h3}>Empfänger von personenbezogenen Daten</h3>
           <p className={styles.p}>
             Im Rahmen unserer Geschäftstätigkeit arbeiten wir mit verschiedenen
             externen Stellen zusammen. Dabei ist teilweise auch eine
@@ -210,14 +210,16 @@ export default function PrivacyPolicy() {
             gemeinsamen Verarbeitung wird ein Vertrag über gemeinsame
             Verarbeitung geschlossen.
           </p>
-          <h3>Widerruf Ihrer Einwilligung zur Datenverarbeitung</h3>
+          <h3 className={styles.h3}>
+            Widerruf Ihrer Einwilligung zur Datenverarbeitung
+          </h3>
           <p className={styles.p}>
             Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen
             Einwilligung möglich. Sie können eine bereits erteilte Einwilligung
             jederzeit widerrufen. Die Rechtmäßigkeit der bis zum Widerruf
             erfolgten Datenverarbeitung bleibt vom Widerruf unberührt.
           </p>
-          <h3>
+          <h3 className={styles.h3}>
             Widerspruchsrecht gegen die Datenerhebung in besonderen Fällen sowie
             gegen Direktwerbung (Art. 21 DSGVO)
           </h3>
@@ -246,7 +248,9 @@ export default function PrivacyPolicy() {
             NICHT MEHR ZUM ZWECKE DER DIREKTWERBUNG VERWENDET (WIDERSPRUCH NACH
             ART. 21 ABS. 2 DSGVO).
           </p>
-          <h3>Beschwerderecht bei der zuständigen Aufsichtsbehörde</h3>
+          <h3 className={styles.h3}>
+            Beschwerderecht bei der zuständigen Aufsichtsbehörde
+          </h3>
           <p className={styles.p}>
             Im Falle von Verstößen gegen die DSGVO steht den Betroffenen ein
             Beschwerderecht bei einer Aufsichtsbehörde, insbesondere in dem
@@ -255,7 +259,7 @@ export default function PrivacyPolicy() {
             besteht unbeschadet anderweitiger verwaltungsrechtlicher oder
             gerichtlicher Rechtsbehelfe.
           </p>
-          <h3>Recht auf Datenübertragbarkeit</h3>
+          <h3 className={styles.h3}>Recht auf Datenübertragbarkeit</h3>
           <p className={styles.p}>
             Sie haben das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung
             oder in Erfüllung eines Vertrags automatisiert verarbeiten, an sich
@@ -264,7 +268,7 @@ export default function PrivacyPolicy() {
             an einen anderen Verantwortlichen verlangen, erfolgt dies nur,
             soweit es technisch machbar ist.
           </p>
-          <h3>Auskunft, Berichtigung und Löschung</h3>
+          <h3 className={styles.h3}>Auskunft, Berichtigung und Löschung</h3>
           <p className={styles.p}>
             Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen
             jederzeit das Recht auf unentgeltliche Auskunft über Ihre
@@ -274,7 +278,9 @@ export default function PrivacyPolicy() {
             Fragen zum Thema personenbezogene Daten können Sie sich jederzeit an
             uns wenden.
           </p>
-          <h3>Recht auf Einschränkung der Verarbeitung</h3>
+          <h3 className={styles.h3}>
+            Recht auf Einschränkung der Verarbeitung
+          </h3>
           <p className={styles.p}>
             Sie haben das Recht, die Einschränkung der Verarbeitung Ihrer
             personenbezogenen Daten zu verlangen. Hierzu können Sie sich
@@ -318,7 +324,7 @@ export default function PrivacyPolicy() {
               Europäischen Union oder eines Mitgliedstaats verarbeitet werden.
             </p>
           </ul>
-          <h3>Widerspruch gegen Werbe-E-Mails</h3>
+          <h3 className={styles.h3}>Widerspruch gegen Werbe-E-Mails</h3>
           <p className={styles.p}>
             Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten
             Kontaktdaten zur Übersendung von nicht ausdrücklich angeforderter
@@ -383,7 +389,7 @@ export default function PrivacyPolicy() {
             Welche Cookies und Dienste auf dieser Website eingesetzt werden,
             können Sie dieser Datenschutzerklärung entnehmen.
           </p>
-          <h3>Server-Log-Dateien</h3>
+          <h3 className={styles.h3}>Server-Log-Dateien</h3>
           <p className={styles.p}>
             Der Provider der Seiten erhebt und speichert automatisch
             Informationen in so genannten Server-Log- Dateien, die Ihr Browser
@@ -407,7 +413,9 @@ export default function PrivacyPolicy() {
             der technisch fehlerfreien Darstellung und der Optimierung seiner
             Website - hierzu müssen die Server-Log-Files erfasst werden.
           </p>
-          <h3>Anfrage per E-Mail, Telefon oder Telefax</h3>
+          <h3 className={styles.h3}>
+            Anfrage per E-Mail, Telefon oder Telefax
+          </h3>
           <p className={styles.p}>
             Wenn Sie uns per E-Mail, Telefon oder Telefax kontaktieren, wird
             Ihre Anfrage inklusive aller daraus hervorgehenden personenbezogenen
@@ -434,7 +442,7 @@ export default function PrivacyPolicy() {
             gesetzliche Aufbewahrungsfristen – bleiben unberührt.
           </p>
           <h2 className={styles.h2}>5. Newsletter</h2>
-          <h3>Newsletterdaten</h3>
+          <h3 className={styles.h3}>Newsletterdaten</h3>
           <p className={styles.p}>
             Wenn Sie den auf der Website angebotenen Newsletter beziehen
             möchten, benötigen wir von Ihnen eine E- Mail-Adresse sowie

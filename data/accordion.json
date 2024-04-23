@@ -42,7 +42,7 @@
     {
       "title": "Eventservice & Production",
       "content": [
-        "Projekte entscheiden sich in der Planungsphase. Die nahtlose Durchführung und den Erfolg Ihrer Veranstaltungen sicherzustellen, ist unser persönliches Anliegen. Von der Konzeption bis zur Umsetzung, von der Budgetierung bis zur Nachbereitung - wir kümmern uns um jede Facette."
+        "Bei sweeppeople sind wir darauf spezialisiert, besondere Erlebnisse zu schaffen und Veranstaltungen nahtlos zu inszenieren, die einen bleibenden Eindruck hinterlassen. Egal, ob Sie eine Firmenkonferenz, eine große Hochzeitsfeier, ein Musikfestival oder ein anderes besonderes Ereignis planen, wir sind hier, um Ihre Vision zum Leben zu erwecken."
       ],
       "listItems": [
         {
@@ -58,12 +58,58 @@
           ]
         },
         {
-          "title": "Technischer Support",
-          "copy": "Wir entwerfen für Ihr Unternehmen Marketingkampagnen für Online- und Offline-Kanäle. Bereit, Ihre Marke auf das nächste Level zu heben? Unsere Agentur bietet maßgeschneiderte Marketing-Konzeptionen und Strategien, die Ihr Unternehmen zum Erfolg führen. Lassen Sie uns gemeinsam Ihre Ziele definieren und eine innovative Strategie entwickeln, die Ihre Marke zum Strahlen bringt."
+          "title": "Event- und Projektmanagement",
+          "copy": "Projekte entscheiden sich in der Planungsphase. Die nahtlose Durchführung und den Erfolg Ihrer Veranstaltungen sicherzustellen, ist unser persönliches Anliegen. Von der Konzeption bis zur Umsetzung, von der Budgetierung bis zur Nachbereitung - wir kümmern uns um jede Facette.",
+          "list": [
+            "Zuverlässige Planung, Durchführung & Betreuung von qualitativ hochwertigen Events",
+            "Lichtkonzepte",
+            "Soundkonzepte",
+            "Booking",
+            "Location Scouting"
+          ]
         },
         {
-          "title": "Technischer Support",
-          "copy": "Wir entwerfen für Ihr Unternehmen Marketingkampagnen für Online- und Offline-Kanäle. Bereit, Ihre Marke auf das nächste Level zu heben? Unsere Agentur bietet maßgeschneiderte Marketing-Konzeptionen und Strategien, die Ihr Unternehmen zum Erfolg führen. Lassen Sie uns gemeinsam Ihre Ziele definieren und eine innovative Strategie entwickeln, die Ihre Marke zum Strahlen bringt."
+          "title": "Consulting",
+          "copy": "Große Produktionen können schnell unübersichtlich werden. Das wissen wir. Die Verantwortung liegt aber weiterhin bei Ihnen. Ein objektiver Blick mit innovativen Ansätzen kann hier weiterhelfen. Sprechen Sie mit uns!",
+          "list": [
+            "Kostenkontrolle",
+            "Event- und Budgetplanung",
+            "Prozessplanung",
+            "Überprüfung und Optimierung bestehender Technikkonzepte",
+            "Gastronomieberatung",
+            "Genehmigungsverfahren",
+            "Brandschutzberatung"
+          ]
+        },
+        {
+          "title": "Construction",
+          "copy": "Um sich heutzutage von der Masse abzuheben, werden ausgefallene Bühnenkonzepte immer wichtiger. Keine einfache Herausforderung diese zu entwerfen, umzusetzen und dabei auf alle Sicherheitsstandards zu achten. Wir vereinen alle Gewerke inkl. Konzeption, & Veranstaltungstechnik und können mit verschiedensten Baumaterialien Bühnen aus einer Hand liefern.",
+          "list": ["Stahlbau", "Holzbau", "Gerüstbau", "Sonderkonstruktionen"]
+        },
+        {
+          "title": "Spezialanfertigungen",
+          "copy": "Viel Geld in Veranstaltungstechnik investieren, die Ihr Konkurrent ebenfalls hat? Das macht nicht unbedingt Sinn. Egal ob Beleuchtungskonzepte oder Speziallampen, einzigartige Bühnen oder andere Kuriositäten – wir helfen Ihnen sich von der Masse abzuheben.",
+          "list": [
+            "LED & Lichttechnik / Speziallicht",
+            "Sonderbühnenbau",
+            "Spezielle Veranstaltungstechnik"
+          ]
+        },
+        {
+          "title": "Location Care",
+          "copy": "Ein atemberaubende Venue,? Eine Idee? Aber ein langer Weg zur Umsetzung? Ob neue Locations oder bestehende Konzepte – wir lieben Sound, Licht und Ambiente und betreuen Sie gerne.",
+          "list": [
+            "Entwicklung von Gesamtkonzepten für Bars, Clubs und Veranstaltungsflächen",
+            "Innendesign",
+            "Lichtkonzept",
+            "Tonkonzept",
+            "Umsetzung von Design bis Fertigstellung"
+          ]
+        },
+        {
+          "title": "Entertainment",
+          "copy": "Das Wichtigste ist die Musik, oder? Als audiophile Menschen haben wir ein sehr gutes Gespür für ein kuratiertes Programm, ein weit verknüpftes Netzwerk und viel Erfahrung für die Energie auf dem Dancefloor.",
+          "list": ["DJs", "Booking", "Artist Care"]
         }
       ]
     },
