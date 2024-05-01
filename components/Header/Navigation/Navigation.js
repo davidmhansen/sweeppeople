@@ -18,12 +18,12 @@ const links = [
     href: "/service",
     src: "astronaut-im-weltall.webp",
   },
-  // {
-  //   title: "Projects",
-  //   sup: "soon",
-  //   href: "#",
-  //   src: "3.jpg",
-  // },
+  {
+    title: "Projects",
+    sup: "soon",
+    href: "#",
+    src: "3.jpg",
+  },
   {
     title: "Contact",
     href: "/contact",
