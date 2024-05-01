@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import projectData from "../../data/projects.json";
 
 import Project from "../Project/Project";
-// import Modal from "../Project/Modal/Modal";
+import Modal from "../Project/Modal/Modal";
 
 const images = projectData.projects.map((proj) => {
   const { img } = proj;
