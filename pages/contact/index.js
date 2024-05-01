@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { reveal } from "../anim";
+import { reveal } from "../../components/Hero/anim";
 import styles from "./Contact.module.scss";
 
 import Hero from "@/components/Hero/Hero";
