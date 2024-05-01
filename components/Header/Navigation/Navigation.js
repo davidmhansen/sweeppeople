@@ -61,6 +61,7 @@ const Navigation = () => {
         <Image
           src={links[selectedLink.index].src}
           selectedLink={selectedLink}
+          alt=""
         />
       </div>
     </motion.div>
