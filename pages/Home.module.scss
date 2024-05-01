@@ -148,6 +148,8 @@
 
     .section__image_wrapper {
         grid-column: 1 / span 9;
+        height: 46rem;
+        position: relative;
 
         @media (max-width: 768px) {
             grid-column: 1 / span 12;

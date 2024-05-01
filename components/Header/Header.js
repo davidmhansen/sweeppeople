@@ -21,6 +21,7 @@ export default function Header() {
               body {
                 position: fixed;
                 overflow-y: scroll;
+                width: 100%;
               }
             `}</style>
           )}

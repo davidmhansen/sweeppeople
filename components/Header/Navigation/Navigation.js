@@ -11,12 +11,12 @@ const links = [
   {
     title: "About",
     href: "/about",
-    src: "7.jpg",
+    src: "bleistifte-auf-gelbem-hintergrund.webp",
   },
   {
     title: "Service",
     href: "/service",
-    src: "2.jpg",
+    src: "astronaut-im-weltall.webp",
   },
   // {
   //   title: "Projects",
@@ -27,7 +27,7 @@ const links = [
   {
     title: "Contact",
     href: "/contact",
-    src: "4.jpg",
+    src: "experimental-architecture.webp",
   },
 ];
 

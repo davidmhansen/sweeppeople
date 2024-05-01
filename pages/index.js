@@ -62,7 +62,7 @@ export default function Home() {
             </div>
             <div className={styles.section__image_wrapper}>
               <Image
-                src="/images/8.jpg"
+                src="/images/point-of-no-return.webp"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -105,14 +105,18 @@ export default function Home() {
           <section className={styles.sitegrid}>
             <div className={styles.section__image_wrapper}>
               <Image
-                src="/images/6.jpg"
-                width={0}
-                height={0}
+                src="/images/colorful-simplicity.webp"
+                // width={0}
+                // height={0}
+                fill
                 sizes="100vw"
                 alt="Picture of the author"
+                // style={{
+                //   width: "100%",
+                //   height: "auto",
+                // }}
                 style={{
-                  width: "100%",
-                  height: "auto",
+                  objectFit: "cover",
                 }}
               />
             </div>
