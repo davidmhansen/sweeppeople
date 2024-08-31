@@ -14,7 +14,7 @@ export default function LegalNotice() {
         <div className={styles.legal__block}>
           <div className={styles.block__item}>
             <span>sweeppeople GmbH</span>
-            <span>Aurikelstraße 1</span>
+            <span>Föhrenwaldstraße 2</span>
             <span>82515 Wolfratshausen</span>
           </div>
           <div className={styles.block__item}>
